@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.form_head{
+    margin-top: 20px;
+    border-bottom: 2px solid #666666;
+    margin-bottom: 20px;
+}
+
+.form_head h1{
+    color: #ec8701;
+    font-family: "Open Sans", Tahoma;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.form_title{
+    position: absolute;
+}
+.form_title p{
+    color: #333333;
+    font-family: "Open Sans", Tahoma;
+}
+
+.title_border {
+    border-bottom: 1px dotted #666666;
+    position: relative;
+    top: 13px;
+    left: -187px;
+    width: 1055px;
+}
+
+.form_left{
+    margin-top: 30px;
+    border-right: 1px dotted #666666;
+}
+
+label{
+    font-family: "Open Sans", Tahoma;
+    font-size: 15px;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 3px;
+}
+
+input[type="radio"] {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #d7cfcf;
+    background-color: white;
+    margin-left: 38px;
+    margin-top: 5px;
+}
+
+select {
+    width: 520px;
+    height: 30px;
+    border: 1px solid #d7cfcf;
+    background-color: white;
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+input{
+    width: 520px;
+    height: 30px;
+    border: 1px solid #d7cfcf;
+    background-color: white;
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+
+.form-right{
+    margin-top: 30px;
+}
+
+.form-right > form > p {
+    padding-right: 118px;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: -20px;
+}
+.form-right > form > #photograpg, #signature {
+    border: 0px;
+    margin-left: -15px;    
+}
